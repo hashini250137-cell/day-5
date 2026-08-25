@@ -1,0 +1,18 @@
+import java.util.Scanner;
+public class usersum {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner input=new Scanner(System.in);
+		System.out.print("enter n:");
+		int limit=input.nextInt();
+		int total=0;
+		int number=1;
+		while(number<=limit) {
+			total+=number;
+			number++;
+		}
+		System.out.println("sum="+total);
+	}
+
+}
